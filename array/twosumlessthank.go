@@ -36,10 +36,3 @@ func twoSumLessThanK(nums []int, k int) int {
 	}
 	return max
 }
-
-func Max(a, b int) int {
-	if a >= b {
-		return a
-	}
-	return b
-}
