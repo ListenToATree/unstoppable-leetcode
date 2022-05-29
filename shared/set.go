@@ -38,7 +38,7 @@ func (s *Set[T]) Add(value T) {
 }
 
 // Remove removes a value from the Set.
-func (s *Set[T]) Remove(value int) {
+func (s *Set[T]) Remove(value T) {
 	if occurrence, exists := s.items[value]; exists {
 		if occurrence == 1 {
 			delete(s.items, value)
