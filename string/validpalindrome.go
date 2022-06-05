@@ -1,4 +1,4 @@
-package math
+package string
 
 import "strings"
 
